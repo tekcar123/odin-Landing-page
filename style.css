@@ -19,7 +19,7 @@ a {
 .header {
     display: flex;
     flex: 1 1 auto;
-    justify-content: space-between;
+    justify-content: space-around;
     color: white;
 }
 body {
@@ -36,11 +36,6 @@ body {
         white 100%
     );
         
-}
-
-.margin-left, .margin-right {
-    width: 50px;
-    flex: 1 2 1;
 }
 
 .header-logo {
