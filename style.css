@@ -7,7 +7,6 @@ ul.header-links {
     display: flex;
     gap: 1.2rem;
     align-items: center;
-    justify-content: end;
 }
 
 a {
@@ -36,8 +35,4 @@ body {
         white 100%
     );
         
-}
-
-.header-logo {
-
 }
