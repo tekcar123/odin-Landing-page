@@ -21,7 +21,7 @@ a {
     color: white;
 }
 body {
-    height: 60.5rem;
+    height: 80rem;
     background: linear-gradient(
         to bottom,
         #1F2937 0%,
@@ -34,8 +34,4 @@ body {
         white 100%
     );
         
-}
-
-.top {
-    justify-content: space-between;
 }
