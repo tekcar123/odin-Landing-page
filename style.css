@@ -15,12 +15,6 @@ a {
     font-size: 0.7em;
 }
 
-.header {
-    display: flex;
-    flex: 1 1 auto;
-    justify-content: space-around;
-    color: white;
-}
 body {
     height: 80rem;
     background: linear-gradient(
@@ -55,4 +49,22 @@ body {
 .image-placeholder {
     color: lightgray;
     background-color: gray;
+}
+
+.top {
+    display: flex;
+    justify-content: space-around;
+}
+
+.s-left {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+}
+
+.sign-up {
+    outline: none;
+    border: none;
+    background-color: #3882F6;
+    color: white;
 }
