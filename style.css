@@ -16,7 +16,7 @@ a {
 }
 
 body {
-    height: 80rem;
+    height: 120rem;
     background: linear-gradient(
         to bottom,
         #1F2937 0%,
@@ -49,15 +49,19 @@ body {
 .image-placeholder {
     color: lightgray;
     background-color: gray;
+    padding: 10rem 13rem;
+    margin-top: 3rem;
+    margin-left: 2rem;
 }
 
 .top {
     display: flex;
-    justify-content: space-around;
+    justify-content: center;
 }
 
 .s-left {
     display: flex;
+    flex: 0 1 auto;
     flex-direction: column;
     align-items: flex-start;
 }
@@ -67,4 +71,21 @@ body {
     border: none;
     background-color: #3882F6;
     color: white;
+    border-radius: 5px;
+    padding: 6px 20px;
+}
+
+.text-button {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    max-width: 30rem;
+}
+
+.s-right {
+    display: flex;
+    flex: 0 1 auto;
+    flex-direction: column-reverse;
+    justify-content: flex-end;
+    align-items: flex-end;
 }
