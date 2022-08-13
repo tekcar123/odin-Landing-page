@@ -121,3 +121,19 @@ body {
     width: 160px;
     text-align: center;
 }
+
+
+#quote {
+    margin: 30vh auto;
+    margin-bottom: 0;
+    font-size: 36px;
+    color: #1F2937;
+    width: 51rem;
+}
+
+#IDKWHATITSCALLED {
+    font-size: 18px;
+    font-weight: bold;
+    margin-left: 59vw;
+}
+
