@@ -52,6 +52,7 @@ body {
     padding: 10rem 13rem;
     margin-top: 3rem;
     margin-left: 2rem;
+    flex: 0 1 auto;
 }
 
 .top {
@@ -72,7 +73,8 @@ body {
     background-color: #3882F6;
     color: white;
     border-radius: 5px;
-    padding: 6px 20px;
+    padding: 6px 25px;
+    font-weight: bold;
 }
 
 .text-button {
@@ -88,4 +90,34 @@ body {
     flex-direction: column-reverse;
     justify-content: flex-end;
     align-items: flex-end;
+}
+
+.middle-top-header {
+    margin-top: 10vh;
+    font-size: 36px;
+    text-align: center;
+}
+
+.images {
+    display: flex;
+    justify-content: center;
+    gap: 55px;
+}
+
+.p-left, .p-middle-left, .p-middle-right, .p-right {
+    display: flex;
+    flex-direction: column;
+}
+
+.placeholder {
+    margin-top: 50px;
+    border-radius: 15px;
+    border: 3px solid #3882F6;
+    width: 160px;
+    height: 160px;
+}
+
+.subtext {
+    width: 160px;
+    text-align: center;
 }
