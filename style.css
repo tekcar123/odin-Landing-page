@@ -137,3 +137,32 @@ body {
     margin-left: 59vw;
 }
 
+.blue-box {
+    margin: 30vh auto;
+    width: 70vw;
+    height: 15vh;
+    background-color: #3882F6;
+    border-radius: 10px;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+
+#text {
+    color: white;
+}
+
+#call-to-action {
+    margin-bottom: -15px;
+}
+
+#sign-up-button {
+    background-color: #3882F6;
+    font-size: 16px;
+    font-weight: 700;
+    width: 7vw;
+    height: 4vh;
+    border-radius: 6px;
+    color: white;
+    border: white solid 2px;
+}
